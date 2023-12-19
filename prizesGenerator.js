@@ -11,4 +11,4 @@ alert("Welcome " + name + "! You will randomly win 1 to 5 prizes. Check the cons
 const prizes = (Math.floor(Math.random() * 5)) + 1
 
 //Output message to console - use interpolation
-console.log(`${name}, you have won ${prizes} prizes! See you next time! Bye Bye!`);
+console.log(`${name}, you have won ${prizes} prizes! See you next time! Bye Bye!`)
